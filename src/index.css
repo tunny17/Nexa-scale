@@ -5,3 +5,117 @@
 body::-webkit-scrollbar {
   display: none;
 }
+
+@font-face {
+  font-family: 'AtypLight';
+  src: local('AtypLight'),
+    url('./fonts/Atyp/AtypDisplay-Light.woff') format('woff');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'AtypRegular';
+  src: local('AtypRegular'),
+    url('./fonts/Atyp/AtypDisplay-Regular.woff') format('woff');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'AtypMedium';
+  src: local('AtypMedium'),
+    url('./fonts/Atyp/AtypDisplay-Medium.woff') format('woff');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'AtypBold';
+  src: local('AtypBold'), url('./fonts/Atyp/AtypText-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'AtypLight';
+  src: local('AtypLight'),
+    url('./fonts/Atyp/AtypText-Light.woff') format('woff');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'AtypThin';
+  src: local('AtypLiAtypThin'),
+    url('./fonts/Atyp/AtypText-Thin.woff') format('woff');
+  font-weight: thin;
+}
+
+/*  */
+@font-face {
+  font-family: 'GuminertLight';
+  src: local('GuminertLight'),
+    url('./fonts/Guminert/Guminert-Light.otf') format('otf');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'GuminertRegular';
+  src: local('GuminertRegular'),
+    url('./fonts/Guminert/Guminert-Regular.otf') format('otf');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'GuminertMedium';
+  src: local('GuminertMedium'),
+    url('./fonts/Guminert/Guminert-Medium.otf') format('OpenType');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'GuminertBold';
+  src: local('GuminertBold'),
+    url('./fonts/Guminert/Guminert-Bold.otf') format('otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GuminertExtraBold';
+  src: local('GuminertExtraBold'),
+    url('./fonts/Guminert/Guminert-ExtraBold.otf') format('otf');
+  font-weight: extraBold;
+}
+
+/*  */
+.font-atyp-light {
+  font-family: 'AtypLight';
+}
+.font-atyp-medium {
+  font-family: 'AtypMedium';
+}
+.font-atyp-regular {
+  font-family: 'AtypRegular';
+}
+.font-atyp-bold {
+  font-family: 'AtypBold';
+}
+.font-atyp-light {
+  font-family: 'AtypLight';
+}
+.font-atyp-thin {
+  font-family: 'AtypThin';
+}
+
+/*  */
+.font-atyp-guminertLight {
+  font-family: 'GuminertLight';
+}
+.font-atyp-guminertRegular {
+  font-family: 'GuminertRegular';
+}
+.font-atyp-guminertMedium {
+  font-family: 'GuminertMedium';
+}
+.font-atyp-guminertBold {
+  font-family: 'GuminertBold';
+}
+.font-atyp-guminertExtraBold {
+  font-family: 'GuminertExtraBold';
+}

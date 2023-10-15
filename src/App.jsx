@@ -1,11 +1,16 @@
 import './App.css';
-import { Hero, Navbar } from './components';
+import { Body, Hero, Navbar } from './components';
 
 function App() {
   return (
-    <div className='bg-[#FFB930] py-7'>
-      <Navbar />
-      <Hero />
+    <div>
+      <div className='bg-[#59A96A]'>
+        <div className='py-7 bg-[#FFB930] rounded-b-[85px]'>
+          <Navbar />
+          <Hero />
+        </div>
+        <Body />
+      </div>
     </div>
   );
 }
