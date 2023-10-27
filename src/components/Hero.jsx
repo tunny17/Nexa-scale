@@ -5,7 +5,9 @@ import { navVariants } from '../../utils/motion';
 
 const Hero = () => {
   return (
-    <div className='h-[100vh] flex justify-center items-center relative'>
+    <div
+      data-scroll-section
+      className='h-[100vh] flex justify-center items-center relative z-20'>
       <img
         src={HeroBackground}
         alt='Hero Background'
@@ -30,9 +32,10 @@ const Hero = () => {
         one-stop platform for mentor-guided learning and skill assessment.
       </motion.h1>
       <img
+        data-scroll
         src={HeroImage}
         alt=''
-        className='float absolute bottom-[-36%] w-[63%]'
+        className='float absolute bottom-[-46%] w-[63%] z-[50]'
       />
     </div>
   );

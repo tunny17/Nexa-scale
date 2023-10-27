@@ -1,4 +1,4 @@
-import { WhyOne, WhyThree, WhyTwo } from '../assets';
+import { Four, One, Three, Two, WhyOne, WhyThree, WhyTwo } from '../assets';
 
 const whyNexaScale = [
   {
@@ -18,4 +18,27 @@ const whyNexaScale = [
   },
 ];
 
-export { whyNexaScale };
+const HowItWorks = [
+  {
+    icon: One,
+    heading: 'Sign Up',
+    note: 'Create your account on NexaScale and provide your learning objectives and preferences.',
+  },
+  {
+    icon: Two,
+    heading: 'Receive Tasks',
+    note: 'Your mentor will assign you tasks tailored to your objectives and guide you through the learning process.',
+  },
+  {
+    icon: Three,
+    heading: 'Submit Your Work',
+    note: 'Complete your tasks and submit them through our user-friendly interface.',
+  },
+  {
+    icon: Four,
+    heading: 'Get Graded',
+    note: 'Your mentor will assess your work, providing detailed feedback and grades.',
+  },
+];
+
+export { whyNexaScale, HowItWorks };

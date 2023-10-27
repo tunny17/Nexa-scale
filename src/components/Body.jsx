@@ -2,32 +2,42 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../utils/motion';
 import { whyNexaScale } from '../constants';
-import { Tilt } from 'react-tilt';
+import { LeftWhyBackground, RightWhyBackground } from '../assets';
 
 const Body = ({ index }) => {
   return (
-    <div className='h-[100vh]'>
+    <div className='relative z-20' data-scroll-section>
       <div className='mt-[20%] px-[6%]'>
-        <h1 className='text-white text-3xl text-center'>Why NexaScale</h1>
-        <div className='flex justify-between items-center mt-10'>
+        <h1 className='text-white text-3xl text-center z-20 absolute top-0 right-[45%]'>
+          Why NexaScale
+        </h1>
+        <br />
+        <br />
+        <br />
+        <div className='flex flex-row gap-[35%] items-center'>
           {whyNexaScale.map((item, index) => (
             <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
-              <Tilt
-                options={{
-                  max: 45,
-                  scale: 1,
-                  speed: 450,
-                }}
-                className='flex flex-col items-center justify-between bg-white max-w-[400px] py-10 px-2 rounded-lg font-atyp-guminertMedium'>
+              <div className='flex flex-col items-center justify-between bg-white max-w-[380px] py-10 px-2 rounded-lg font-atyp-guminertMedium z-20 absolute'>
                 <img src={item.icon} alt='' className='w-14 my-4' />
                 <h3 className='leading-10 text-lg'>{item.heading}</h3>
                 <p className='text-center text-xs leading-5 px-1'>
                   {item.note}
                 </p>
-              </Tilt>
+              </div>
             </motion.div>
           ))}
         </div>
+        {/* <img
+          src={LeftWhyBackground}
+          alt=''
+          className='absolute left-0 z-10'
+          data-scroll
+        /> */}
+        {/* <img
+          src={RightWhyBackground}
+          alt=''
+          className='absolute w-[70%] bottom-0 right-0 z-10 rounded-md'
+        /> */}
       </div>
     </div>
   );

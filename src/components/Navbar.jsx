@@ -6,10 +6,11 @@ import { navVariants } from '../../utils/motion';
 const Navbar = () => {
   return (
     <motion.div
+      data-scroll-section
       variants={navVariants}
       initial='hidden'
       whileInView='show'
-      className='w-[80%] mx-auto bg-white rounded-full px-2 py-2 flex justify-between items-center'>
+      className='w-[80%] mx-auto bg-white rounded-full px-2 py-2 flex justify-between items-center z-30'>
       <div>
         <img src={Logo} alt='A logo' className='w-24 ml-4' />
       </div>

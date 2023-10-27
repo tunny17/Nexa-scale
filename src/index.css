@@ -51,14 +51,14 @@ body::-webkit-scrollbar {
 @font-face {
   font-family: 'GuminertLight';
   src: local('GuminertLight'),
-    url('./fonts/Guminert/Guminert-Light.otf') format('otf');
+    url('./fonts/Guminert/Guminert-Light.otf') format('OpenType');
   font-weight: light;
 }
 
 @font-face {
   font-family: 'GuminertRegular';
   src: local('GuminertRegular'),
-    url('./fonts/Guminert/Guminert-Regular.otf') format('otf');
+    url('./fonts/Guminert/Guminert-Regular.otf') format('OpenType');
   font-weight: regular;
 }
 
@@ -72,14 +72,14 @@ body::-webkit-scrollbar {
 @font-face {
   font-family: 'GuminertBold';
   src: local('GuminertBold'),
-    url('./fonts/Guminert/Guminert-Bold.otf') format('otf');
+    url('./fonts/Guminert/Guminert-Bold.otf') format('OpenType');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'GuminertExtraBold';
   src: local('GuminertExtraBold'),
-    url('./fonts/Guminert/Guminert-ExtraBold.otf') format('otf');
+    url('./fonts/Guminert/Guminert-ExtraBold.otf') format('OpenType');
   font-weight: extraBold;
 }
 

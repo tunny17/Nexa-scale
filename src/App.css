@@ -25,3 +25,7 @@
     transform: translateY(1rem);
   }
 }
+
+.index {
+  z-index: 2;
+}
