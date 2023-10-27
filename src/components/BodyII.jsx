@@ -5,7 +5,7 @@ import { BlueVector, GreenVector, HowImage, OrangeVector } from '../assets';
 const BodyII = () => {
   return (
     <div className='mt-14 h-[100vh]' data-scroll-section>
-      <h1 className='text-3xl text-center font-atyp-bold' data-scroll>
+      <h1 className='text-2xl text-center font-atyp-bold' data-scroll>
         How it Works?
       </h1>
       <div className='flex items-center justify-between h-full mt-[3%]'>
@@ -19,30 +19,30 @@ const BodyII = () => {
             data-scroll-speed='1'
           />
         </div>
-        <div className='w-2/4 flex gap-y-20 flex-col justify-between relative'>
+        <div className='w-2/4 flex gap-y-10 flex-col justify-between relative pl-[8%]'>
           {HowItWorks.map((item, index) => (
-            <div className='text-center flex items-center ml-5 flex-col justify-between w-[58%]'>
+            <div className='text-center flex items-center ml-5 flex-col justify-between w-[65%]'>
               <img src={item.icon} alt='' className='w-13' />
-              <h1 className='my-3 font-atyp-guminertMedium text-2xl'>
+              <h1 className='my-3 font-atyp-guminertMedium text-lg'>
                 {item.heading}
               </h1>
-              <p className='text-base font-atyp-guminertRegular'>{item.note}</p>
+              <p className='text-xs font-atyp-guminertRegular'>{item.note}</p>
             </div>
           ))}
           <img
             src={GreenVector}
             alt=''
-            className='absolute w-18 top-[37%] left-[-10%]'
+            className='absolute w-[11%] top-[40%] left-0'
           />
           <img
             src={BlueVector}
             alt=''
-            className='absolute top-[12%] right-[14%]'
+            className='absolute w-[20%] top-[17%] right-0'
           />
           <img
             src={OrangeVector}
             alt=''
-            className='absolute bottom-[15%] right-[24%]'
+            className='absolute w-[13%] bottom-[15%] right-[9%]'
           />
         </div>
       </div>

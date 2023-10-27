@@ -52,14 +52,14 @@ const Connected = () => {
         className='absolute right-0 bottom-[44.8%] z-20'
       />
       <div className='absolute bottom-20 left-[30%] w-[40%] text-white '>
-        <h1 className='font-atyp-medium text-4xl'>
+        <h1 className='font-atyp-medium text-2xl'>
           Stay connected with NexaScale
         </h1>
-        <p className='font-atyp-guminertLight font-thin my-3 w-[80%]'>
+        <p className='font-atyp-guminertLight font-thin text-sm my-3 w-[80%]'>
           Our user-friendly service is designed to provide you with a
           hassle-free experience, making it easier than ever to stay connected.
         </p>
-        <button className='px-5 py-2 bg-[#FFB930] rounded-md font-atyp-guminertRegular'>
+        <button className='px-5 py-2 bg-[#FFB930] rounded-md text-sm font-atyp-guminertRegular'>
           Get Started
         </button>
       </div>

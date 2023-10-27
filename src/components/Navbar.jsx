@@ -15,14 +15,14 @@ const Navbar = () => {
         <img src={Logo} alt='A logo' className='w-24 ml-4' />
       </div>
       <div className='flex justify-between w-[38%]'>
-        <ul className='font-atyp-regular flex justify-between items-center w-[73%] text-sm'>
+        <ul className='font-atyp-regular flex justify-between items-center w-[73%] text-xs'>
           <li>About Us</li>
           <li>Service</li>
           <li>Reviews</li>
           <li>Contact Us</li>
           <li>Login</li>
         </ul>
-        <button className='bg-[#FFB930] text-white text-sm font-normal py-2 px-4 rounded-full font-atyp-regular tracking-wide'>
+        <button className='bg-[#FFB930] text-white text-xs font-normal py-1.5 px-3 rounded-full font-atyp-regular '>
           Get Started
         </button>
       </div>

@@ -17,7 +17,7 @@ const Hero = () => {
         variants={navVariants}
         initial='hidden'
         whileInView='show'
-        className='font-atyp-medium text-white text-5xl w-[59%] text-center leading-[1.2] tracking-wide absolute top-20 z-50'>
+        className='font-atyp-medium text-white text-4xl w-[55%] text-center leading-[1.2] tracking-wide absolute top-20 z-50'>
         Welcome to Nexascale, Your Perfect Place to Unlock Your Potential &
         Achieve Excellence in Your Tech Career.
       </motion.h1>
@@ -25,7 +25,7 @@ const Hero = () => {
         variants={navVariants}
         initial='hidden'
         whileInView='show'
-        className='font-atyp-light text-white text-lg w-[69%] text-center tracking-wide leading-6 absolute top-[42%] z-50'>
+        className='font-atyp-light text-white text-xs w-[69%] text-center tracking-wide leading-4 absolute top-[45%] z-50'>
         Are you ready to take your skills to the next level? Do you want
         personalized guidance and feedback to help you excel in your tech career
         or professional growth? Look no further. Welcome to NexaScale, your
@@ -35,7 +35,8 @@ const Hero = () => {
         data-scroll
         src={HeroImage}
         alt=''
-        className='float absolute bottom-[-46%] w-[63%] z-[50]'
+        className='float absolute bottom-[-39%] w-[63%] z-[50]'
+        data-scroll
       />
     </div>
   );

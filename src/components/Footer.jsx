@@ -9,27 +9,27 @@ const Footer = () => {
       <img
         src={FooterBackground}
         alt=''
-        className='absolute top-[11%] left-[6%]'
+        className='absolute w-[14%] top-[11%] left-[6%]'
       />
       <img
         src={Logo}
         alt=''
-        className='absolute w-[20%] top-[20%] left-[15%]'
+        className='absolute w-[15%] top-[20%] left-[15%]'
       />
       <div className='flex gap-[10%] w-[50%] text-white mx-auto'>
-        <ul className='flex flex-col gap-5 font-atyp-guminertLight'>
+        <ul className='flex flex-col gap-5 text-xs font-atyp-guminertLight'>
           <li className='font-medium'>About</li>
           <li>Contact Us</li>
           <li>Terms & Condition</li>
           <li>Privacy policy</li>
         </ul>
-        <ul className='flex flex-col gap-5 font-atyp-guminertLight'>
+        <ul className='flex flex-col gap-5 text-xs font-atyp-guminertLight'>
           <li className='font-medium'>Contact us</li>
           <li>09012345678</li>
           <li>support@sage.world</li>
           <li>N0 23 Adedoyin Street, V.I. Lagos</li>
         </ul>
-        <ul className='flex flex-col gap-5 font-atyp-guminertLight'>
+        <ul className='flex flex-col gap-5 text-xs font-atyp-guminertLight'>
           <li>Connect with us</li>
           <li className='flex gap-6'>
             <img
@@ -52,7 +52,7 @@ const Footer = () => {
         <img
           src={FooterBackground}
           alt=''
-          className='absolute bottom-[11%] right-[10%]'
+          className='absolute w-[14%] bottom-[11%] right-[10%]'
         />
       </div>
     </div>

@@ -27,7 +27,7 @@ const Testimonies = () => {
       <img
         src={TestimoniesLeft}
         alt=''
-        className='absolute left-0 bottom-0 z-20'
+        className='absolute w-[27%] left-0 bottom-0 z-20'
         data-scroll
         data-scroll-direction='horizontal'
         data-scroll-speed='-1'
@@ -35,13 +35,13 @@ const Testimonies = () => {
       <img
         src={TestimoniesRight}
         alt=''
-        className='absolute right-0 top-0 z-20 '
+        className='absolute w-[30%] right-0 top-0 z-20 '
         data-scroll
         data-scroll-direction='horizontal'
         data-scroll-speed='1'
       />
-      <div className='w-[24%] mx-auto absolute left-[39%] bottom-[20%] z-20'>
-        <p className='leading-7 font-atyp-guminertRegular'>
+      <div className='w-[31%] mx-auto absolute left-[32%] bottom-[10%] z-20'>
+        <p className='leading-7 text-xs font-atyp-guminertRegular'>
           “it's been a game-changer for me. The ability to connect with
           experienced tutors who specialize in my subjects has been incredibly
           valuable. Not only have they helped me grasp complex concepts, but
@@ -49,10 +49,12 @@ const Testimonies = () => {
           overall performance in college. Thanks to this platform, my grades
           have never been better!"
         </p>
-        <p className='mt-7 mb-[20%] font-atyp-guminertRegular'>Kemi Adenuga</p>
+        <p className='mt-7 mb-[20%] text-sm font-atyp-guminertRegular'>
+          Kemi Adenuga
+        </p>
         <div className='flex justify-between'>
-          <img src={ArrowLeft} alt='' className='' />
-          <img src={ArrowRight} alt='' className='' />
+          <img src={ArrowLeft} alt='' className='w-8' />
+          <img src={ArrowRight} alt='' className='w-8' />
         </div>
       </div>
     </div>
